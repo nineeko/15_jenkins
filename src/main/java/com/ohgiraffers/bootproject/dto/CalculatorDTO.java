@@ -2,9 +2,11 @@ package com.ohgiraffers.bootproject.dto;
 
 import lombok.*;
 
+
 @Getter
 @Setter
 @ToString
+@AllArgsConstructor
 public class CalculatorDTO {
 
     private final Integer num1;
